@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+            overflow: hidden;
+            padding: 0px;
+            margin: 0px;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            padding: 7px;
+            color: black;
+            background-color: blanchedalmond;
+            
+        }
+        li a:hover {
+            color: violet;
+        }
+        .inner {
+            padding: 20px;
+            border: 8px solid black ;
+            width: 300px;
+        }
+        .outer{
+            padding: 15px;
+            border: 8px solid violet;
+            width: 380px;
+        }
+        .image{
+            align-content: center;
+            height: 250px;
+            width: 250px;
+            margin: 30px;
+            size: 400px;
+            object-fit: cover;
+        }
+        .id{
+            text-align: center;
+            padding: 1px;
+            margin: 1px;
+
+            
+        }
+        .btn{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+    </style>
+ <script>
+    function myfunctions(){
+        document.getElementById("info").innerHTML="my name is nishan gurung 21 years old doing bca in south western state college have little knowledge in html css and js ";
+    }
+    function myfunction(){
+        document.getElementById("info").innerHTML="how are you  ";
+    }
+</script>
+</head>
+<body>
+   
+    <ul>
+        <li><a href="#HOME">HOME</a></li>
+        <li><a href="#NEWS">NEWS</a></li>
+        <li><a href="#ABOUT">ABOUT</a></li>
+        <li><a href="#CONTACT">CONTACT</a></li>
+        <li><a href="#OPTION">OPTION</a></li>
+       
+    </ul><br><br><br>
+    
+    <div style="background-color: rgb(106, 106, 96);" class="outer">
+    <div class="inner">
+        <div>
+            <img class="image" src="./sandy.jpg" alt="this is me">
+        </div>
+    </div>
+
+<div class="id" id="info">
+    <h4>**Southwestern State College***</h4>
+    <h5>Name: jiudo lassh </h5>
+    <h5>crime: bedma susu</h5>
+    <h5>Semister: 5th</h5>
+    <h5>cash: one rupee</h5>
+    <h5>if found give dipar</h5>
+</div>
+
+<div class="btn">
+    <button type="button" onclick="myfunction()">back</button>
+    <button type="button" onclick="myfunctions()">next</button>
+</div> 
+
+</div>
+</body>
+</html>
+
+
